@@ -1,0 +1,2 @@
+2) Desarrollar un programa en Java que utilice una clase que se llame Hora con miembros de  tipo Integer para hora, minutos y segundos. Deberá tener un constructor para inicializar la  hora a 0 y otro para incializar a una hora determinada (hora, minutos, segundos). La hora  deberá ser una hora con valores posibles que hemos de controlar).Se deberá poder sumar  y restar horas, así como imprimir una hora, ver la conversión a segundos de una hora dada,  sumar segundos a una hora dada.  
+El formato de impresión y lectura será hh:mm:ss, todo en modo 24 

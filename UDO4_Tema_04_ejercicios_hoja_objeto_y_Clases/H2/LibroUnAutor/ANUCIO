@@ -1,0 +1,42 @@
+3) Crea el proyecto LibroUnAutor, que estará formado por las siguientes clases:  
+Autor
+-nombre: String (no tiene valor por defecto) -email: String (no tiene valor por defecto)  
+-genero: Character (los posibles valores son ‘m’ o ‘f’) 
++Autor(nombre: String, email: String, genero: String) +getNombre(): String  
++getEmail: String  
++setEmail(email: String): void  
++getGenero(): Character  
++toString(): String 
+
+
+
+El método toString devolverá la siguiente cadena de caracteres (por ejemplo):   "Autor[nombre = Arturo Perez Reverte, email = apreverte@correo.com, genero = m]"  
+Libro
+-titulo: String (no tiene valor por defecto) 
+-autor: Autor  
+-precio: Double  
+-cantidad: Integer = 0 
++Libro(titulo: String, autor: Autor, precio: double) +Libro(titulo: String, autor: Autor, precio: double,  cantidad: int)  
++getTitulo(): String  
++getAutor: Autor  
++getPrecio(): Double  
++setPrecio (precio: double): void  
++getCantidad(): Integer  
++setCantidad(cantidad: int): void  
++toString(): String 
+
+
+
+Supondremos que un libro sólo tiene un autor y que el método toString devolverá una cadena  de caracteres como la siguiente (por ejemplo):  
+“Libro [titulo = El asedio,  
+Autor [nombre = Arturo Perez Reverte, email = apreverte@correo.com, genero = m]  precio = 18,90  
+cantidad = 3]”  
+Escribe la clase GestLibroAutor, que además del método main deberá tener otros métodos  estáticos para que al ejecutar la aplicación muestre un menú con las siguientes opciones:  
+0- Salir.
+1- Crear libros.  
+2- Crear autor.  
+3- Modificar autor.  
+4- Modificar libro.  
+5- Listado de libros.  
+6- Listado de autores.  
+ 

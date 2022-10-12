@@ -1,0 +1,21 @@
+4) Vamos a crear la clase CuentaCorriente, con las siguientes propiedades y comportamiento:  
+CuentaCorriente 
+- numCuenta: String.Será el número de la cuenta corriente. 
+- saldo: Double. Saldo actual de la cuenta.  
+- cliente: String. Nombre de cliente.  
+- numSiguiente:Integer=1 Número de cuenta siguiente  
++ CuentaCorriente(double cantidad, String cliente) El número de la cuenta se creará a partir de numSiguiente  
++ ingresaEfectivo(double cantidad) : el parámetro que recibe se lo suma al saldo.  + retiraEfectivo(double cantidad): Boolean el parámetro indica la cantidad que  queremos retirar. Si hay saldo, restará el importe y devolverá true,  en caso contrario devolverá false y no realizará ninguna operación.  + visualiza() : Mostrará por pantalla la información de la cuenta corriente: Número de  cuenta y saldo. 
+
+
+
+El método main de la clase principal (GestionCuentas) creará las cuentas que se deseen a  partir del número de numSiguiente, con 0.00 € de saldo y clientes distintos,  posteriormente mostrará el siguiente menú por pantalla:  
+1: Crear nueva cuenta  
+2: Ingresar en cuenta  
+3: Retirar de cuenta  
+4: Visualizar cuenta  
+5: Visualiza todas las cuentas  
+0: Fin  
+Dicho menú se ejecutará realizando las operaciones oportunas para cada opción hasta  que el usuario elija la opción de fin. El saldo se debe presentar con solo dos decimales.  
+NOTA: en los métodos de la clase CuentaCorriente no se piden datos ni se imprime 
+TragaBolas 

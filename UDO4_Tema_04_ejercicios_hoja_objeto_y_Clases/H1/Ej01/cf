@@ -1,0 +1,3 @@
+) Desarrollar un programa en Java que utilice una clase que se llame Alumno que sea la  representación de un alumno.  
+La clase deberá tener los atributos nombre, edad. En el momento de la creación de cada  objeto se asignarán todos los elementos que no podrán ser nulos. Entre los métodos que  se programarán deberán estar: imprimir el nombre, imprimir la edad e incrementar la  edad.  
+En ese programa (el principal), crearás un vector de elementos de tipo Alumno y se podrá  escoger el alumno a tratar.  
